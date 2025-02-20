@@ -13,7 +13,7 @@ def user_choice(): #Chiede all'utente di scegliere un'opzione
 def computer_choice():
     return random.choice(options) #Genera casualmente una scelta per il computer
 
-def tie_condition(user, computer):
+def tie_condition(user, computer): #Determina il risultato del gioco confrontando le scelte dell'utente e del computer
     if user == computer:
         return "It's a tie! (˶°ㅁ°)!!"
     elif (user == "rock" and computer == "scissors") or (user == "paper" and computer == "rock") or (user == "scissors" and computer == "paper"):
