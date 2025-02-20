@@ -11,7 +11,7 @@ def user_choice(): #Chiede all'utente di scegliere un'opzione
         return user_choice()
 
 def computer_choice():
-    return random.choice(options)
+    return random.choice(options) #Genera casualmente una scelta per il computer
 
 def tie_condition(user, computer):
     if user == computer:
