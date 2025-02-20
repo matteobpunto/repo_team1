@@ -1,7 +1,26 @@
 RULES
 
-basing on users' choices:
+Based on the users' choices:
 
-- ROCK beats SCISSORS;
-- SCISSORS beats PAPER;
-- PAPER beats ROCK
+ROCK beats SCISSORS;
+SCISSORS beats PAPER;
+PAPER beats ROCK.
+
+PSEUDOCODE
+
+Video displays a message:
+"This is a simulation game of Rock, Paper, and Scissors. Choose wisely and have fun!"
+
+Video displays a message:
+"Choose between Rock, Paper, and Scissors."
+
+User chooses between Rock, Paper, or Scissors.
+
+Computer generates a random choice between Rock, Paper, or Scissors.
+
+Based on the result, the video message changes:
+
+If the user's choice results in a winning condition, the video displays:
+"You won!"
+If the user's choice results in a losing condition, the video displays:
+"You lose! :("
