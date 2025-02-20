@@ -17,7 +17,7 @@ def winning_condition(user, computer): #Determina il risultato del gioco confron
     if user == computer: #Caso di pareggio
         return "It's a tie! (˶°ㅁ°)!!"
     elif (user == "rock" and computer == "scissors") or (user == "paper" and computer == "rock") or (user == "scissors" and computer == "paper"):
-        return "You won! ദ്ദി •⩊• )"
+        return "You won! ദ്ദി •⩊• )" # Caso di vittoria 
     else:
         return "You lose! (っ- ‸ - ς)"
 
