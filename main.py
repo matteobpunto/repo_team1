@@ -19,7 +19,7 @@ def winning_condition(user, computer): #Determina il risultato del gioco confron
     elif (user == "rock" and computer == "scissors") or (user == "paper" and computer == "rock") or (user == "scissors" and computer == "paper"):
         return "You won! ദ്ദി •⩊• )" # Caso di vittoria 
     else:
-        return "You lose! (っ- ‸ - ς)"
+        return "You lose! (っ- ‸ - ς)" #Caso di sconfitta
 
 user = user_choice()
 computer = computer_choice()
