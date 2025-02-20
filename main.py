@@ -2,12 +2,12 @@ import random
 
 options = ["paper", "scissors", "rock"]
 
-def user_choice():
+def user_choice(): #Chiede all'utente di scegliere un'opzione  
     choice = input("Choose your option: ")
     if choice in options:
         return choice
     else:
-        print("Invalid choice. Please choose paper, scissors, or rock.")
+        print("Invalid choice")
         return user_choice()
 
 def computer_choice():
